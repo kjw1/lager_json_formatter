@@ -1,0 +1,14 @@
+{application, lager_json_formatter,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager
+                 ]},
+  {modules, []},
+  {mod, { lager_json_formatter, []}},
+  {env, []}
+ ]}.
