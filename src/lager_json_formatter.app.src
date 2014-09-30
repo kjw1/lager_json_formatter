@@ -8,7 +8,6 @@
                   stdlib,
                   lager
                  ]},
-  {modules, []},
-  {mod, { lager_json_formatter, []}},
+  {modules, [lager_json_formatter]},
   {env, []}
  ]}.
