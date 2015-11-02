@@ -1,3 +1,5 @@
 ebin
 deps
 .rebar
+.erlang.mk
+lager_json_formatter.d
